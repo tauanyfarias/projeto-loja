@@ -133,6 +133,11 @@
     width: 0vw;
     overflow: hidden;
     font-family: 'Hepta Slab', Helvetica, Arial;
+    transition: all ease 0.2s;
+  }
+
+  aside.show {
+    width: 30vw;
   }
 
   .cart-area {
